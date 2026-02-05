@@ -47,7 +47,7 @@
 const char* ssid = "xxx";             // Replace xxx with your WiFi SSID
 const char* password = "xxx";          // Replace xxx with your WiFi Password
 String serverName = "www.circuitdigest.cloud";  // Replace with your server domain
-String serverPath = "/readnumberplate";         // API endpoint path "/readqrcode" or "/readnumberplate"
+String serverPath = "/api/v1/readnumberplate";         // API endpoint path "/readqrcode" or "/readnumberplate"
 const int serverPort = 443;                     // HTTPS port
 String apiKey = "xxx";                 // Replace xxx with your API key
 String imageViewLink = "https://www.circuitdigest.cloud/static/" + apiKey + ".jpeg";
